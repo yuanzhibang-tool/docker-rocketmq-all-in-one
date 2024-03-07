@@ -11,6 +11,6 @@ COPY start-rocketmq.sh /home/rocketmq/rocketmq-5.2.0/start-rocketmq.sh
 WORKDIR /home/rocketmq/rocketmq-5.2.0
 
 # expose port
-EXPOSE 8080 9876 10909 10911 10912
+EXPOSE 8084 9876 10909 10911 10912
 
 ENTRYPOINT ["sh", "start-rocketmq.sh"]
