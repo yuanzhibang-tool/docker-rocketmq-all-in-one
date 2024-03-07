@@ -22,5 +22,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASS }}
       - name: start build
         run: |
-          git checkout main
+          git checkout develop
           ./build-docker.sh
